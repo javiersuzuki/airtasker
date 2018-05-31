@@ -1,0 +1,1375 @@
+.insurance-banner {
+  background-image: linear-gradient(0deg, #11c9e1 25%, #0798bf);
+  color: #fff;
+  position: relative
+}
+
+.insurance-banner .buoy {
+  height: 297px;
+  left: -165px;
+  top: 57px;
+  position: absolute
+}
+
+.insurance-banner .insurance-text {
+  float: left;
+  margin: 70px 0 0 10%;
+  width: 30%
+}
+
+.insurance-banner .insurance-text .button-ghost {
+  background-color: #fff;
+  border: #fff;
+  margin-top: 10px;
+  text-decoration: none
+}
+
+.insurance-banner .insurance-text .button-ghost:hover {
+  background-color: #008fb4;
+  color: #fff
+}
+
+.insurance-banner .insurance-icon-boxes {
+  float: left;
+  margin: 70px 0 20px 20px;
+  width: 50%
+}
+
+.insurance-banner .insurance-icon-boxes .icon-row {
+  margin-bottom: 20px;
+  width: 50%;
+  float: left;
+  padding-right: 25px;
+  box-sizing: border-box
+}
+
+.insurance-banner .insurance-icon-boxes .icon-row img {
+  float: left;
+  clear: both
+}
+
+.insurance-banner .insurance-icon-boxes .icon-row p {
+  margin-left: 66px;
+  font-weight: 100
+}
+
+.insurance-banner .insurance-icon-boxes .icon-row h4 {
+  padding-left: 66px
+}
+
+.insurance-banner h4 {
+  font-size: 16px;
+  line-height: 19px
+}
+
+.insurance-banner h2 {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 44px
+}
+
+.insurance-banner .insurance-info+.small {
+  font-size: 11px !important
+}
+
+.insurance-banner .title p {
+  padding-right: 20px
+}
+
+.insurance-banner .title a {
+  margin-right: auto;
+  margin-left: 0
+}
+
+.insurance-banner .free img {
+  height: 48px
+}
+
+.insurance-banner .control img {
+  height: 45px
+}
+
+.insurance-banner .secure img {
+  height: 28px
+}
+
+.insurance-banner .trusted img {
+  height: 44px
+}
+
+@media screen and (max-width:1023px) {
+  .insurance-banner .insurance-text {
+    margin-left: 10%
+  }
+  .insurance-banner .insurance-icon-boxes {
+    width: 50%
+  }
+  .insurance-banner .insurance-icon-boxes .icon-row {
+    float: none;
+    width: 100%;
+    height: inherit
+  }
+}
+
+@media screen and (max-width:767px) {
+  .insurance-banner {
+    top: 70px;
+    margin-bottom: 70px
+  }
+  .insurance-banner .buoy {
+    position: relative;
+    left: 50%;
+    margin-left: -112px;
+    top: -70px
+  }
+  .insurance-banner .insurance-text {
+    float: none;
+    width: 100%;
+    margin: -50px 0 0;
+    text-align: center
+  }
+  .insurance-banner .insurance-text h2 {
+    font-size: 28px;
+    line-height: 50px
+  }
+  .insurance-banner .insurance-text .button-ghost {
+    margin-bottom: 40px
+  }
+  .insurance-banner .insurance-icon-boxes {
+    float: none;
+    width: 100%;
+    margin: 50px 0 0
+  }
+  .insurance-banner .insurance-icon-boxes .icon-row {
+    padding-left: 25px;
+    float: none;
+    min-height: 80px;
+    width: 100%
+  }
+}
+
+.cta-tiles {
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:first-child,
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(5) {
+  height: 420px
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:first-child .tile-overlay {
+  background-image: url("/images/home/category-restyle/handyman@2x.jpg");
+  background-size: cover
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:first-child img {
+  display: none
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(4) {
+  width: 49%;
+  margin-right: 2%
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(4) .tile-overlay {
+  background-image: url("/images/home/category-restyle/cleaning@2x.jpg");
+  background-size: cover
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(4) img {
+  display: none
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(5) {
+  float: none;
+  margin-top: 0
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(5) .tile-overlay {
+  background-image: url("/images/home/category-restyle/moving@2x.jpg");
+  background-size: cover
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(5) img {
+  display: none
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(6) {
+  margin-left: 0;
+  width: 49%
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(6) .tile-overlay {
+  background-image: url("/images/home/category-restyle/assembly@2x.jpg");
+  background-size: cover
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(6) img {
+  display: none
+}
+
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(4),
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(6),
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(7),
+.cta-tiles.ab-test-AIR-584 .row .tile:nth-child(8) {
+  margin-top: 2%
+}
+
+.cta-tiles .title {
+  margin: 40px 0
+}
+
+.cta-tiles .row {
+  margin-bottom: 30px
+}
+
+.cta-tiles .row .tile {
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 0 0 0 2px hsla(300, 0%, 61%, .15);
+  transition: all .4s cubic-bezier(.49, -.015, .27, 1)
+}
+
+.cta-tiles .row .tile:nth-child(5n) {
+  margin-left: 0
+}
+
+.cta-tiles .row .tile:nth-child(n+5) {
+  margin-top: 50px
+}
+
+.cta-tiles .row .tile .tile-overlay {
+  box-shadow: inset 0 0 100px 100px hsla(0, 0%, 100%, 0);
+  transition: box-shadow .2s ease-in-out
+}
+
+.cta-tiles .row .tile:hover {
+  -ms-transform: translateY(-1px) scale(1.01);
+  transform: translateY(-1px) scale(1.01);
+  border: none;
+  box-shadow: 0 2px 12px 6px rgba(0, 0, 0, .1)
+}
+
+.cta-tiles .row .tile img {
+  width: 100%
+}
+
+.cta-tiles .row .tile .details {
+  background-image: linear-gradient(-180deg, hsla(0, 0%, 100%, .76), #fff);
+  bottom: 0;
+  height: 55px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  position: absolute;
+  box-sizing: border-box
+}
+
+.cta-tiles .row .tile .details .task-name {
+  color: #008fb4;
+  letter-spacing: .1px
+}
+
+.cta-tiles .row .tile .details .task-placeholder {
+  color: #839094;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+
+.cta-tiles .row .tile .tile-overlay {
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+.cta-tiles .row .tile .background {
+  position: absolute;
+  width: 101%;
+  height: 73%;
+  top: -1;
+  background-color: 0;
+  color: #839094
+}
+
+.cta-tiles .see-more {
+  width: 200px;
+  margin-bottom: 40px
+}
+
+@media screen and (max-width:850px) {
+  .cta-tiles .img-container,
+  .cta-tiles .img-container img {
+    height: 100%
+  }
+}
+
+@media screen and (min-width:550px) and (max-width:767px) {
+  .cta-tiles .img-container {
+    overflow: hidden
+  }
+  .cta-tiles .img-container img {
+    height: 100%
+  }
+  .cta-tiles .row .tile img {
+    width: auto
+  }
+}
+
+@media screen and (min-width:550px) and (max-width:720px) {
+  .cta-tiles .three.columns {
+    width: 49%;
+    margin-left: 0
+  }
+  .cta-tiles .three.columns:nth-child(2n) {
+    margin-left: 2%
+  }
+  .cta-tiles .row .tile img {
+    width: 100%;
+    height: auto;
+    min-height: 103px
+  }
+}
+
+@media screen and (max-width:550px) {
+  .cta-tiles .img-container {
+    overflow: hidden
+  }
+  .cta-tiles .img-container img {
+    height: auto
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .cta-tiles .row .tile .tile-overlay {
+    transition: 0
+  }
+  .cta-tiles .row .tile:hover .tile-overlay {
+    box-shadow: none
+  }
+  .cta-tiles .row .tile:nth-child(n+5) {
+    margin-top: 5px
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile {
+    height: 182px
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:first-child,
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(5) {
+    height: 380px
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:first-child .tile-overlay {
+    background-image: url("/images/home/category-restyle/handyman@2x.jpg");
+    background-size: cover
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:first-child img {
+    display: none
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(4) {
+    width: 49%;
+    margin-right: 2%
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(4) .tile-overlay {
+    background-image: url("/images/home/category-restyle/cleaning@2x.jpg");
+    background-size: cover
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(4) img {
+    display: none
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(5) {
+    float: none;
+    margin-top: 0
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(5) .tile-overlay {
+    background-image: url("/images/home/category-restyle/moving@2x.jpg");
+    background-size: cover
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(5) img {
+    display: none
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(6) {
+    margin-left: 0;
+    width: 49%
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(6) .tile-overlay {
+    background-image: url("/images/home/category-restyle/assembly@2x.jpg");
+    background-size: cover
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(6) img {
+    display: none
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(4),
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(6),
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(7),
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(8) {
+    margin-top: 2%
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cta-tiles .row .tile {
+    margin-bottom: 10px;
+    min-height: 105px
+  }
+  .cta-tiles .row .tile .tile-overlay {
+    transition: 0
+  }
+  .cta-tiles .row .tile:hover .tile-overlay {
+    box-shadow: none
+  }
+  .cta-tiles .content .row:nth-child(2) {
+    display: none
+  }
+  .cta-tiles .margin-isolated-top-bottom {
+    margin-top: 40px;
+    margin-bottom: 30px
+  }
+  .cta-tiles.ab-test-AIR-584 .row {
+    padding: 0
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:first-child {
+    border-top: 1px solid #e8edf2
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(n) {
+    display: block;
+    float: none;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+    border-bottom: 1px solid #e8edf2;
+    box-shadow: none
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(n):hover {
+    box-shadow: 0 2px 12px 6px rgba(0, 0, 0, .1);
+    -ms-transform: translateY(-1px) scale(1.01);
+    transform: translateY(-1px) scale(1.01);
+    z-index: 2
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(n) .img-container,
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(n) .tile-overlay {
+    display: none
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(n) .details {
+    position: static
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(n) .details .task-placeholder {
+    display: none
+  }
+  .cta-tiles.ab-test-AIR-584 .row .tile:nth-child(n) .details .task-name {
+    font-size: 16px;
+    line-height: 35px;
+    margin-left: 20px
+  }
+}
+
+.recent-task-tiles {
+  margin-bottom: 40px
+}
+
+.recent-task-tiles .banner-heading {
+  margin: 40px 0;
+  color: #008fb4
+}
+
+.recent-task-tiles .content {
+  margin-bottom: 40px
+}
+
+.recent-task-tiles .tile {
+  border-radius: 6px;
+  height: 145px;
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+  cursor: pointer;
+  position: relative
+}
+
+.recent-task-tiles .tile:hover .pen-container {
+  opacity: 1;
+  -ms-transform: scale(1);
+  transform: scale(1)
+}
+
+.recent-task-tiles .tile .pen-container {
+  -ms-transform: scale(.5);
+  transform: scale(.5);
+  opacity: 0
+}
+
+.recent-task-tiles .tile .pen-container .pen {
+  margin-left: 12px;
+  margin-top: 11px
+}
+
+.recent-task-tiles .tile .top .avatar {
+  width: 33.5px;
+  height: 33.5px;
+  margin: 0 10px 10px 0;
+  border-radius: 25px;
+  float: left
+}
+
+.recent-task-tiles .tile .top .heading {
+  float: left;
+  margin-top: 7px
+}
+
+.recent-task-tiles .tile .top .heading .date,
+.recent-task-tiles .tile .top .heading .location {
+  color: #cad7dc
+}
+
+.recent-task-tiles .tile .details {
+  height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.recent-task-tiles .tile .details .title {
+  color: #008fb4;
+  display: inline-block;
+  margin-bottom: 2px
+}
+
+.recent-task-tiles .tile .details .description {
+  color: #839094;
+  display: inline-block
+}
+
+@media screen and (max-width:1023px) {
+  .recent-task-tiles .tile .top .heading {
+    margin-top: 0
+  }
+}
+
+@media screen and (max-width:767px) {
+  .recent-task-tiles h2 {
+    margin-top: 30px
+  }
+  .recent-task-tiles .tile {
+    margin-bottom: 10px
+  }
+  .recent-task-tiles .tile .details {
+    height: 65px
+  }
+  .recent-task-tiles .tile .pen-container {
+    opacity: 1;
+    -ms-transform: scale(1);
+    transform: scale(1);
+    top: 10px;
+    right: 10px
+  }
+  .recent-task-tiles .row:nth-child(2) {
+    display: none
+  }
+}
+
+.statistics .statistic p {
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  color: #839094;
+  letter-spacing: .51px;
+  font-weight: 300
+}
+
+.statistics .statistic p.huge {
+  font-size: 55px;
+  margin: 35px 0;
+  color: #008fb4;
+  letter-spacing: 1.57px
+}
+
+.redeem-section {
+  background: #00a8cf;
+  background: linear-gradient(270deg, #00a8cf 0, #00a3ca 5%, #0296bf 24%, #078db6 44%, #0a88b2 68%, #0a86b0);
+  height: 300px;
+  margin-top: 60px;
+  border-top: 1px solid #f5f9fb
+}
+
+.redeem-section .row {
+  padding: 0 20px
+}
+
+@media screen and (max-width:1023px) {
+  .redeem-section {
+    height: auto;
+    padding-bottom: 0;
+    margin-top: 30px
+  }
+}
+
+@media screen and (max-width:767px) {
+  .redeem-section {
+    height: auto
+  }
+}
+
+.redeem-section .container-redeem {
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 300px
+}
+
+@media screen and (max-width:767px) {
+  .redeem-section .container-redeem {
+    height: auto
+  }
+}
+
+.redeem-section .container-redeem .img-container {
+  display: inline-block;
+  width: 60%;
+  height: 300px;
+  position: relative;
+  vertical-align: bottom
+}
+
+@media screen and (max-width:767px) {
+  .redeem-section .container-redeem .img-container {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 0;
+    height: auto
+  }
+}
+
+.redeem-section .container-redeem .img-container .airtasker-card {
+  display: block;
+  width: 100%;
+  margin-top: -30px;
+  position: absolute;
+  bottom: 0
+}
+
+@media screen and (max-width:767px) {
+  .redeem-section .container-redeem .img-container .airtasker-card {
+    position: static;
+    margin-top: 0
+  }
+}
+
+.redeem-section .container-redeem .airtasker-text {
+  display: inline-block;
+  width: 40%;
+  padding-left: 0;
+  margin-top: 40px;
+  vertical-align: top
+}
+
+@media screen and (max-width:1023px) {
+  .redeem-section .container-redeem .airtasker-text {
+    margin-top: 50px
+  }
+}
+
+@media screen and (max-width:767px) {
+  .redeem-section .container-redeem .airtasker-text {
+    width: 100%;
+    display: block;
+    padding: 5%;
+    box-sizing: border-box;
+    margin-top: 10px
+  }
+  .redeem-section .container-redeem .airtasker-text .button-redeem {
+    display: block;
+    text-align: center
+  }
+  .redeem-section .container-redeem .airtasker-text h2 {
+    text-align: center
+  }
+  .redeem-section .container-redeem .airtasker-text a {
+    box-sizing: none
+  }
+}
+
+.redeem-section .container-redeem .airtasker-text h2 {
+  color: #fff
+}
+
+.redeem-section .container-redeem .airtasker-text p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  color: #fff
+}
+
+@media screen and (max-width:1023px) {
+  .redeem-section .container-redeem .airtasker-text p {
+    margin-bottom: 14px
+  }
+}
+
+@media screen and (max-width:767px) {
+  .redeem-section .container-redeem .airtasker-text p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px
+  }
+}
+
+.redeem-section .container-redeem .airtasker-text .stores-container {
+  margin-top: 10px
+}
+
+.redeem-section .container-redeem .airtasker-text .stores-container span {
+  font-size: 12px;
+  color: #fff
+}
+
+@media screen and (max-width:1023px) {
+  .redeem-section .container-redeem .airtasker-text .stores-container span {
+    font-size: 11px
+  }
+}
+
+@media screen and (max-width:767px) {
+  .redeem-section .container-redeem .airtasker-text .stores-container span {
+    margin-top: 10;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 10px
+  }
+}
+
+.redeem-section .container-redeem .airtasker-text .stores-container img {
+  height: 24px;
+  position: relative;
+  top: 7px;
+  left: 12px
+}
+
+@media screen and (max-width:1023px) {
+  .redeem-section .container-redeem .airtasker-text .stores-container img {
+    height: 18px;
+    left: 0
+  }
+}
+
+@media screen and (max-width:767px) {
+  .redeem-section .container-redeem .airtasker-text .stores-container img {
+    height: 24px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 15px
+  }
+}
+
+.home-page {
+  background-color: #fff
+}
+
+.home-page .bg-grey {
+  background-color: #f5f9fb;
+  box-shadow: inset 0 1px 1px 0 rgba(202, 215, 220, .5)
+}
+
+.home-page .statistics .statistic {
+  padding: 40px 0 20px
+}
+
+.home-page .statistics .huge {
+  margin: 15px 0
+}
+
+.home-page .content {
+  z-index: 4;
+  position: relative
+}
+
+.home-page .row {
+  box-sizing: border-box;
+  margin-top: 0
+}
+
+.home-page .cta-tiles .row,
+.home-page .recent-task-tiles .row,
+.home-page .statistics.row {
+  padding: 20px 20px 0
+}
+
+.home-page .post-task-heading {
+  text-transform: uppercase;
+  font-size: 11.5px;
+  font-weight: 500
+}
+
+.home-page .banner-heading {
+  font-size: 24px;
+  color: #839094
+}
+
+.home-page .banner-sub-heading {
+  color: #839094;
+  font-size: 16px
+}
+
+.home-page .hero {
+  height: 600px;
+  background: url(https://s3-assets.airtasker.com/images/home/home-bg-v3.jpg) no-repeat;
+  background-position: center 80%;
+  background-size: auto 100%;
+  color: #fff;
+  background-color: #b5bbbb;
+}
+
+.home-page .hero .button-ghost {
+  display: none
+}
+
+.home-page .hero.lab {
+  height: 675px;
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .1)), url("/images/like_a_boss/campaign-1-bg.jpg"), linear-gradient(rgba(0, 0, 0, .03), rgba(0, 0, 0, .01))
+}
+
+.home-page .hero.lab .intro {
+  width: 60%;
+  padding: 220px 0 0 60px
+}
+
+.home-page .hero.lab .intro-3 {
+  max-width: 380px;
+  line-height: 31px
+}
+
+.home-page .hero.lab .button-ghost {
+  display: inline-block;
+  margin-left: 40px;
+  padding-right: 15px
+}
+
+.home-page .hero.lab .button-ghost .lab-preview {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.home-page .hero.lab .button-ghost svg {
+  fill: #fff
+}
+
+.home-page .hero.lab .button-ghost span {
+  margin-left: 55px
+}
+
+.home-page .hero .intro {
+  padding: 160px 0 0 60px;
+  box-sizing: border-box;
+  width: 52%
+}
+
+.home-page .hero .intro .intro-1,
+.home-page .hero .intro .intro-2,
+.home-page .hero .intro .intro-3 {
+  display: block;
+  margin-bottom: 10px
+}
+
+.home-page .hero .intro .intro-1 {
+  font-size: 14px;
+  text-decoration: uppercase
+}
+
+.home-page .hero .intro .intro-2 {
+  line-height: 60px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+  line-height: 1
+}
+
+.home-page .hero .intro .intro-3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 300
+}
+
+.home-page .hero.ab-test-AIR-677 {
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url("/images/like_a_boss/video-placeholder.jpg")
+}
+
+.home-page .hero.ab-test-AIR-677 #video-container:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, .3)
+}
+
+.home-page .hero.ab-test-AIR-677 #video-container video {
+  top: 50%;
+  left: 50%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  transition: .6s;
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 1
+}
+
+.home-page .lab {
+  height: 450px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("/images/like_a_boss/hero-stripe.jpg"), linear-gradient(rgba(0, 0, 0, .03), rgba(0, 0, 0, .01));
+  background-repeat: no-repeat;
+  background-position: -80% 22%;
+  background-size: cover, 105% auto;
+  color: #fff
+}
+
+.home-page .lab-container {
+  max-width: 1024px;
+  margin: 120px auto;
+  padding: 0 0 0 60px;
+  box-sizing: border-box
+}
+
+.home-page .lab p {
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin: 15px 0
+}
+
+.home-page .lab .super {
+  font-weight: 700;
+  font-size: 10px;
+  color: #f5f9fb;
+  letter-spacing: .87px;
+  background: rgba(0, 143, 180, .8);
+  border-radius: 100px;
+  display: inline-block;
+  width: 102px;
+  height: 19px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: -10px
+}
+
+.home-page .lab-logo {
+  width: 470px;
+  display: block
+}
+
+.home-page .lab .button-ghost {
+  background: hsla(0, 0%, 100%, .9);
+  border: 1px solid #cad7dc;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #008fb4;
+  letter-spacing: .4px;
+  padding: 5px 12px;
+  height: 38px;
+  line-height: 27px;
+  position: relative;
+  transition: all .25s ease-in-out
+}
+
+.home-page .lab .button-ghost svg {
+  position: absolute;
+  fill: #008fb4;
+  margin-right: 5px;
+  transition: transform .45s cubic-bezier(.4, 0, 0, 1.04);
+  left: 5px
+}
+
+.home-page .lab .button-ghost span {
+  margin-left: 30px
+}
+
+.home-page .lab .button-ghost:hover {
+  background-color: #fff;
+  border: 1px solid #cad7dc;
+  padding: 5px 20px
+}
+
+.home-page .lab .button-ghost:hover svg {
+  -ms-transform: scale(1.45);
+  transform: scale(1.45);
+  -ms-transform-origin: center;
+  transform-origin: center
+}
+
+.home-page .work-with-airtasker {
+  background-image: linear-gradient(0deg, #11c9e1 25%, #0798bf);
+  height: 360px;
+  position: relative
+}
+
+.home-page .work-with-airtasker:after {
+  content: "";
+  background-image: url("/images/home/icons-bg.png");
+  background-size: 100% auto;
+  position: absolute;
+  width: 870px;
+  height: 240px;
+  left: 50%;
+  margin-left: -430px;
+  z-index: 1
+}
+
+.home-page .work-with-airtasker .work-placeholder {
+  width: 300px;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+  z-index: 2
+}
+
+.home-page .work-with-airtasker .work-text {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 330px;
+  z-index: 2;
+  color: #fff
+}
+
+.home-page .work-with-airtasker .work-text h3 {
+  font-size: 28px;
+  line-height: 33px;
+  z-index: 2
+}
+
+.home-page .work-with-airtasker .work-text p {
+  margin: 10px 0 20px;
+  width: 85%;
+  z-index: 2
+}
+
+.home-page .work-with-airtasker .work-text .earn-button {
+  z-index: 2
+}
+
+.home-page .work-with-airtasker .home-col {
+  width: 50%;
+  height: 100%;
+  box-sizing: border;
+  position: relative;
+  display: inline-block
+}
+
+.home-page .how-airtasker-works {
+  padding: 50px 0 100px
+}
+
+.home-page .how-airtasker-works img {
+  -ms-transform: scale(.9);
+  transform: scale(.9)
+}
+
+.home-page .home-taskers .home-taskers-carousel {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 460px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+  background: #fff
+}
+
+.home-page .home-taskers .home-taskers-carousel h4 {
+  font-weight: 700;
+  margin-bottom: 8px
+}
+
+.home-page .home-taskers .icon-first-step,
+.home-page .home-taskers .icon-second-step,
+.home-page .home-taskers .icon-third-step {
+  margin-bottom: 10px;
+  text-align: center
+}
+
+.home-page .home-taskers p {
+  font-size: 16px
+}
+
+.home-page .insurance-banner {
+  background-image: linear-gradient(-212deg, #0798bf, #11c9e1);
+  padding: 80px 0
+}
+
+.home-page .insurance-banner .buoy {
+  top: 45px
+}
+
+.home-page .insurance-banner .insurance-info {
+  font-size: 16px;
+  letter-spacing: .1px
+}
+
+.home-page .social-proof {
+  padding: 40px 0;
+  background-color: #f5f9fb;
+  margin-bottom: 0
+}
+
+.home-page .social-proof .content img {
+  width: 90px
+}
+
+.home-page .social-proof .content a {
+  text-align: center
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+  .home-page .hero {
+    background-position: center 80%;
+    background-size: auto 100%
+  }
+}
+
+@media screen and (min-width:1660px) {
+  .home-page .hero {
+    background-position: center 80%;
+    background-size: auto 100%
+  }
+  .home-page .hero.lab {
+    background-repeat: no-repeat;
+    background-position: -45% 25%;
+    background-size: cover, 110% auto
+  }
+}
+
+@media screen and (max-width:1441px) {
+  .home-page .hero.lab {
+    background-position: 0, 41% 45%;
+    background-size: cover, 143%
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .home-page .hero {
+    background-position: 78%;
+    background-size: auto 100%;
+    height: 560px
+  }
+  .home-page .hero .intro {
+    width: 60%
+  }
+  .home-page .hero.lab {
+    background-position: 0, 50%;
+    background-size: cover
+  }
+  .home-page .hero.lab .intro {
+    width: 70%
+  }
+  .home-page .social a:hover {
+    opacity: 1
+  }
+  .home-page .how-airtasker-works p p {
+    margin: 0 auto;
+    padding-top: 6px
+  }
+  .home-page .how-airtasker-works p .four.columns {
+    width: 33%;
+    margin-left: 0
+  }
+  .home-page .how-airtasker-works p .text {
+    width: 100%
+  }
+  .home-page .lab {
+    background-position: -80%, 85%;
+    background-size: cover
+  }
+}
+
+@media screen and (max-width:767px) {
+  .home-page .social-proof .content img {
+    width: 80px
+  }
+  .home-page .lab {
+    background-position: -80%, 65%
+  }
+  .home-page .lab-container {
+    margin: 160px auto 0;
+    text-align: center;
+    padding: 0
+  }
+  .home-page .lab .super {
+    margin-left: 0
+  }
+  .home-page .lab-logo {
+    max-width: 80%;
+    margin: auto
+  }
+  .home-page .lab p {
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 23px
+  }
+  .home-page .banner-sub-heading {
+    padding: 0 20px;
+    margin-top: 5px
+  }
+  .home-page .hero {
+    background-blend-mode: multiply;
+    background-position: 77%;
+    background-size: auto 100%;
+    height: 660px;
+    margin-top: 0
+  }
+  .home-page .hero .intro {
+    width: 100%;
+    padding: 230px 36px 0
+  }
+  .home-page .hero .intro .intro-2 {
+    font-size: 62px;
+    line-height: 60px
+  }
+  .home-page .hero .intro .intro-3 {
+    font-size: 28px;
+    line-height: 34px
+  }
+  .home-page .hero .intro .post-task {
+    width: 100%
+  }
+  .home-page .hero.lab {
+    background-position: 0, 50% 5%;
+    background-size: cover
+  }
+  .home-page .hero.lab .intro {
+    width: 100%;
+    padding: 200px 20px 0
+  }
+  .home-page .hero.lab .button-ghost {
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    height: 48px;
+    line-height: 30px;
+    display: block;
+    max-width: 200px
+  }
+  .home-page .hero.lab .button-ghost:hover {
+    padding: 10px 30px
+  }
+  .home-page .hero.lab .button-ghost span {
+    margin-left: 45px
+  }
+  .home-page .work-with-airtasker {
+    height: 300px
+  }
+  .home-page .work-with-airtasker .work-placeholder {
+    width: 220px
+  }
+  .home-page .work-with-airtasker .work-text {
+    width: 100%;
+    left: 15px
+  }
+  .home-page .work-with-airtasker .col-1 {
+    width: 40%
+  }
+  .home-page .work-with-airtasker .col-2 {
+    width: 60%
+  }
+  .home-page .statistics {
+    background-color: #f5f9fb
+  }
+  .home-page .how-airtasker-works {
+    padding-bottom: 110px
+  }
+  .home-page .insurance-banner {
+    margin-top: -70px
+  }
+  .home-page .recent-task-tiles {
+    padding-top: 20px
+  }
+  .home-page .how-airtasker-works .four.columns {
+    width: 100%;
+    margin: 0 auto
+  }
+  .home-page .how-airtasker-works .title {
+    width: auto
+  }
+  .home-page .how-airtasker-works .icon-first-step,
+  .home-page .how-airtasker-works .icon-second-step,
+  .home-page .how-airtasker-works .icon-third-step {
+    width: 100%;
+    margin-bottom: -25px
+  }
+  .home-page .insurance-banner .buoy {
+    top: -70px
+  }
+  .home-page .insurance-banner .insurance-info {
+    margin: 10px 15px
+  }
+  .home-page .insurance-banner .insurance-info .insurance-icon-boxes {
+    padding: 10px;
+    box-sizing: border-box
+  }
+  .home-page .insurance-banner .insurance-info .insurance-icon-boxes .icon-row {
+    padding-right: 0
+  }
+}
+
+@media screen and (max-width:480px) {
+  .home-page .hero .intro {
+    padding: 126px 28px 0
+  }
+  .home-page .hero .intro .intro-3 {
+    margin-bottom: 80px
+  }
+  .home-page .hero.lab .intro .intro-3 {
+    margin-bottom: 40px
+  }
+}
+
+@media screen and (max-width:376px) {
+  .home-page .hero.lab .intro {
+    padding: 120px 20px 0
+  }
+}
+
+@media screen and (max-width:320px) {
+  .home-page .hero {
+    background-blend-mode: multiply;
+    background-position: 78%;
+    background-size: auto 100%;
+    height: 600px
+  }
+  .home-page .hero .intro {
+    width: 100%;
+    padding: 130px 20px 0
+  }
+  .home-page .hero.lab .intro {
+    padding: 30px 15px 0
+  }
+  .home-page .work-with-airtasker .work-text {
+    width: 47%;
+    left: 53%
+  }
+  .home-page .work-with-airtasker .work-text h3 {
+    padding-top: 0
+  }
+  .home-page .how-airtasker-works .text {
+    margin: 30px auto;
+    max-width: 250px
+  }
+}
