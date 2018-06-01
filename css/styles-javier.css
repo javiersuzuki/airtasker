@@ -1,56 +1,3 @@
-/* BASED ON PRINCIPLES BORROWED FROM AIRBNB AND MATERIAL DESIGN */
-
-/*
-As I know that at first glance not much may seem to have change, please let me briefly explain what I have done section by section.
-
-The first and most important task I've done was defining the design system for Airtasker based on principles from:
-  Google's Material Design
-  Airbnb's Visual Language
-  8 points Grid System and Golden Ratio Principles
-The mission is allow Airtask to build any component, page, or system that the company may need in the future, with balance and consistency.
-The vision is to help Airtasker someday lead in design, as great companies like Google, Facebook, Airbnb and Atlassian are doing now a days.
-*/
-
-/* Type Adjustments done:
-  1. Reset Base Font Settings (hardcoded way for rapid prototyping, sorry :) to improve font legibility and text readibility across site
-    a. Defining base (normal) font-weight as 500.
-        As the CSS font-smoothing property tends to smooth the curves of glyphs making them look sharper but thinner, by defining the Medium font value as the Regular, we can achieve a sharp Regular font-weight.
-        (More information about font-smoothing here: http://szafranek.net/blog/2009/02/22/font-smoothing-explained/)
-    b. Increasing base font-size to 16px
-    c. Improved text contrast by darkening the grey body colour
-        Quite light and has low contrast for reading. I would gently suggest to make it slightly darker :)
-        #839094 was changed to #686868 
-
-  2. Introduced 8px grid system and Golden Ratio Design Principles
-
-  These articles explain pretty well the magic behind these rules:
-  Why a 8px system?
-  https://spec.fm/specifics/8-pt-grid
-  https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632
-  https://blog.prototypr.io/the-8pt-grid-consistent-spacing-in-ui-design-with-sketch-577e4f0fd520
-  Golden Ratio nicely explained:
-  https://www.canva.com/learn/what-is-the-golden-ratio/
-
-  Some more inspiring articles for a future Airtask Design System:
-  https://airbnb.design/building-a-visual-language/
-  ----> LINK SOBRE AIRBNB NEW FONT CEREAL
-
-  3. Branding decisions
-    a. Applied main brand colour and bigger font-size to headings
-
-  4. Improved hierarchy of information by setting font-sizes, font-weights and more contrasting colours to different text levels.
-
-  5. Simplified top navigation (following Airbnb's tested UI)
-
-  Would love to help Airtasker be included in this list someday:
-  https://www.canva.com/learn/apple-google-starbucks-inside-the-web-design-style-guides-of-10-famous-companies/
-
-  Webfont Analysis
-  https://www.linotype.com/6837/museo.html
-  https://www.webdesignerdepot.com/2009/04/meet-jos-buivenga-the-designer-of-the-museo-font/
-
-
-*/
 * {
   letter-spacing: 0 !important;
 }
@@ -227,6 +174,7 @@ img {
 
 #header #menu-user {
   display: flex;
+  min-height: 37px;
 }
 #header #menu-user a.link {
   padding: 0 8px;
