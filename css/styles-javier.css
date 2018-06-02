@@ -651,9 +651,24 @@ img {
   margin: 0;
 }
 .sidebar-content {
-  padding: 24px 16px;
+  /* padding: 24px 16px; */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: calc(100% - 176px); /* 176px = header + footer*/
+  overflow-y: scroll;
 }
-.sidebar-faq {}
+.sidebar-faq {
+  padding: 0 16px;
+}
+.sidebar-faq:first-of-type {
+  padding-top: 24px;
+}
+.sidebar-faq:last-of-type {
+  padding-bottom: 24px;
+}
 .sidebar-faq__heading {
   font-size: 17px;
   font-weight: 700;
