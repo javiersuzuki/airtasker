@@ -732,6 +732,9 @@ img {
   display: inline-block;
   fill: #839094;
 }
+.sidebar-close:hover svg {
+  fill: #0798bf;
+}
 /* Sidebar UI End */
 
 /* Typed.js Start */
