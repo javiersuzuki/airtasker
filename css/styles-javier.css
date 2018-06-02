@@ -620,7 +620,7 @@ img {
 .airtasker-sidebar {
   position: relative;
 }
-.ui.visible.right.overlay.sidebar,
+.airtasker-sidebar,
 .sidebar-header,
 .sidebar-content,
 .sidebar-faq__footer {
