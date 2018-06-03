@@ -1,0 +1,223 @@
+body {
+  font-family: museo-sans, sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0 !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+}
+
+h1{
+  font-size:44px;
+  line-height:56px;
+}
+h2{
+  font-size:32px;
+  line-height:36px;
+}
+h3{
+  font-size:24px;
+  line-height:28px;
+}
+h4,
+.lead,
+.lead li {
+  font-size:19px !important;
+  line-height:24px;
+}
+h5,
+p,
+li{
+  font-size:17px;
+  line-height:22px;
+}
+h6,
+.small{
+  font-size:14px;
+  line-height:18px;
+}
+h6,
+.very-small{
+  font-size:14px;
+  line-height:18px;
+}
+p, li {
+  color: #686868;
+}
+a, a:hover, a:visited, a:active {
+  color: #008fb4;
+}
+
+.no-border {
+  border: none !important;
+}
+.no-bullets {
+  list-style-type: none !important;
+  padding-left: 0;
+}
+.block {
+  display: block;
+}
+.ol-latin {
+  margin: 16px 0;
+  list-style-type: lower-latin;
+  padding: 0 0 0 24px;
+}
+hr {
+  margin-bottom: 24px;
+}
+
+/* Margins */
+.m-0{ margin:0; }
+.ml-0{ margin-left:0; }
+.mr-0{ margin-right:0; }
+.mt-0{ margin-top:0; }
+.mb-0{ margin-bottom:0; }
+
+.m-1{ margin:4px; }
+.ml-1{ margin-left:4px; }
+.mr-1{ margin-right:4px; }
+.mt-1{ margin-top:4px; }
+.mb-1{ margin-bottom:4px; }
+
+.m-2{ margin:8px; }
+.ml-2{ margin-left:8px; }
+.mr-2{ margin-right:8px; }
+.mt-2{ margin-top:8px; }
+.mb-2{ margin-bottom:8px; }
+
+.m-3{ margin:16px; }
+.ml-3{ margin-left:16px; }
+.mr-3{ margin-right:16px; }
+.mt-3{ margin-top:16px; }
+.mb-3{ margin-bottom:16px; }
+
+.m-4{ margin:24px; }
+.ml-4{ margin-left:24px; }
+.mr-4{ margin-right:24px; }
+.mt-4{ margin-top:24px; }
+.mb-4{ margin-bottom:24px; }
+
+.m-5{ margin:48px; }
+.ml-5{ margin-left:48px; }
+.mr-5{ margin-right:48px; }
+.mt-5{ margin-top:48px; }
+.mb-5{ margin-bottom:48px; }
+
+.m-6{ margin:64px; }
+.ml-6{ margin-left:64px; }
+.mr-6{ margin-right:64px; }
+.mt-6{ margin-top:64px; }
+.mb-6{ margin-bottom:64px; }
+
+/* Paddings */
+.p-0{ padding:0; }
+.pl-0{ padding-left:0; }
+.pr-0{ padding-right:0; }
+.pt-0{ padding-top:0; }
+.pb-0{ padding-bottom:0; }
+
+.p-1{ padding:4px; }
+.pl-1{ padding-left:4px; }
+.pr-1{ padding-right:4px; }
+.pt-1{ padding-top:4px; }
+.pb-1{ padding-bottom:4px; }
+
+.p-2{ padding:8px; }
+.pl-2{ padding-left:8px; }
+.pr-2{ padding-right:8px; }
+.pt-2{ padding-top:8px; }
+.pb-2{ padding-bottom:8px; }
+
+.p-3{ padding:16px; }
+.pl-3{ padding-left:16px; }
+.pr-3{ padding-right:16px; }
+.pt-3{ padding-top:16px; }
+.pb-3{ padding-bottom:16px; }
+
+.p-4{ padding:24px; }
+.pl-4{ padding-left:24px; }
+.pr-4{ padding-right:24px; }
+.pt-4{ padding-top:24px; }
+.pb-4{ padding-bottom:24px; }
+
+.p-5{ padding:48px; }
+.pl-5{ padding-left:48px; }
+.pr-5{ padding-right:48px; }
+.pt-5{ padding-top:48px; }
+.pb-5{ padding-bottom:48px; }
+
+.p-6{ padding:64px; }
+.pl-6{ padding-left:64px; }
+.pr-6{ padding-right:64px; }
+.pt-6{ padding-top:64px; }
+.pb-6{ padding-bottom:64px; }
+
+/* Presentations Header */
+.segment-presentation-header {
+  background-color: #008fb4 !important;
+  padding: 24px !important;
+}
+.header-heading {
+  color: #fff !important;
+  margin: 0 0 8px 0 !important;
+  line-height: 44px;
+}
+.header-subtext {
+  color: #fff !important;
+}
+
+/* Intro */
+.section-intro {
+  margin: 32px 0 0;
+}
+
+/* Sections Start */
+.section-container {}
+.section-heading { 
+  color: #008fb4;
+  margin: 24px 0 24px 0 !important;
+  padding: 0;
+}
+.section-heading--version {
+  margin: 0 0 8px 0 !important;
+  padding: 0 !important;
+}
+.section-image--version {
+  margin: 0 0 16px 0 !important;
+  padding: 0 !important;
+}
+.section-image--version.revised {
+  margin: 0 0 32px 0 !important;
+  padding: 0 !important;
+}
+.section-heading--device {
+  margin: 0 0 8px 0 !important;
+  padding: 0;
+}
+.section-list {
+  margin: 0;
+  padding: 0 0 24px 16px;
+  list-style-position: outside;
+  max-width: 900px;
+}
+.section-list li {
+  margin: 0 0 4px; 0;
+}
+.section-list + p {
+  margin-top: -8px !important;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.max-width {
+  width: auto;
+  max-width: 100% !important;
+  height: auto;
+}
+/* Sections End */

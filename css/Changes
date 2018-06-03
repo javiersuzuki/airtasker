@@ -1,0 +1,66 @@
+App Header
+  Desktop
+  • Made Airtasker logo Bigger.
+  • Simplified navigation by bringing the 2 navs together. 
+    This helps to add some more white space, making it look a bit cleaner and simpler. 
+  • Darkened links grey colour and adjusted font-size to improve contrast and readability
+  • Changed border-bottom with a box-shadow to add more depth to the user interface
+  • Changed call-to-action button's colour (red) to green to improve UI consistency
+  • Moved "How Airtasker works" into "Help" and added a sidebar showing related content (Similar as Airbnb does).
+  Mobile
+  • Changed call-to-action button's position to bottom-right corner of screen (thumb's comfortable zone) to make it easier and quicker to reach.
+
+
+Hero
+Desktop
+• Made slight typographic adjustment to copy's line-height
+• Adjusted the font-weight and fixed typographic orphan in "Australia-wide" making the lead block look sturdier.
+Mobile
+• Adjusted font-sizes and height of Hero on smaller screens
+
+
+What do you need done
+Desktop/Mobile
+• Adjusted padding and spacing between elements (applying the 8pt Grid System principles)
+• Applied consistent font-size and font-weight based on defined Design System to heading. Also made it blue to help it stand out more and consolidate branding.
+• Darkened grey text and adjusted font-weights in tiles to improve readability and contrast better their levels of information.
+• Added more tasks examples
+• Improved "See More Tasks" button style, adjusting its size and style.
+
+
+What is Airtasker?
+Desktop/Mobile
+• Improved readability with previously defined consistent font-sizes and font-weights to the different levels of information
+• Applied consistent box-shadow
+• Darkened grey text for better contrast and readability
+• Applied consistent spacing
+• Broke lead text into 2 lines and adjusted its font-size for better readability
+
+
+Top Rated Insurance
+Desktop/Mobile
+• Applied previously adjusted font-sizes and font-weights for consistent UI.
+
+
+Recently Completed Tasks
+Desktop/Mobile
+• Applied previously adjusted spacing and UI styles (font-sizes, font-weights and line-heights) for better readability and consistent look & feel to tiles.
+• Soften tiles border with consistent box-shadow style.
+• Applied consistent button style to "Browse More Tasks"
+
+
+Stats/Numbers
+Desktop/Mobile
+• Applied different font-weights and adjusted spacing between lines to improve hierarchy of information
+• Styled Numbers to highlight them more
+
+
+Earn up to $5,000 per month completing tasks
+Desktop/Mobile
+• Applied previously defined spacing, font-sizes and font-weights for UI consistency
+• Made buttons look consistent in size and style (currently both skeuomorphic and flat styles)
+
+
+Footer
+Desktop/Mobile
+• Made font-sizes slightly bigger to improve readability
