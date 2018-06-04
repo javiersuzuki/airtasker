@@ -164,7 +164,8 @@ hr {
 .header-heading {
   color: #fff !important;
   margin: 0 0 8px 0 !important;
-  line-height: 44px;
+  font-size: 32px;
+  line-height: 32px;
 }
 .header-subtext {
   color: #fff !important;
