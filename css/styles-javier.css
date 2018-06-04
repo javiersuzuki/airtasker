@@ -658,7 +658,7 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   height: calc(100% - 176px); /* 176px = header + footer*/
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .sidebar-faq {
   padding: 0 16px;
