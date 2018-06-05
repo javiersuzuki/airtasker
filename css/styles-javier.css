@@ -243,6 +243,37 @@ img {
   background: linear-gradient(-180deg,#acc41a,#8fb41b);
 }
 
+/* Help link State */
+.help-link {
+  position: relative;
+  
+}
+.help-link:before {
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  border-radius: 50%;
+} 
+.help-link:before {
+  top:6px;
+  left:22px;
+  position:absolute;
+  content:"";
+  z-index:-1;
+  display:block;
+  animation: dot-ripple 3s infinite;
+  animation-delay: 2s;
+}
+@keyframes dot-ripple {
+  0% { 
+    background-color: rgba(150,150,150,1);
+  }
+  100% {
+    opacity:0;
+    background-color: rgba(150,150,150,.2);
+    transform: scale(50);
+  }
+}
 /* Header - End */
 
 /* Sections */
